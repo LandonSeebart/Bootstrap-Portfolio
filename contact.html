@@ -22,39 +22,36 @@
       </ul>
     </div><!-- /.container-fluid -->
   </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Contact</h1>
-
-                <form id="contact-form">
-                    <ul>
-                        <li>
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                        </li>
-                        <li>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                        </li>
-                        <li>
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required="required"></textarea>
-                        </li>
-                    </ul>
-                      <input type="submit">
-                    </form>
-              
+  <div id="main-container" class="container">
+    <div class="row">
+      <div class="main-section col-md-8">
+        <h1>Contact</h1>
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form> 
             </div>
-            <div id="connect" class="col-md-4">
-                <h2>Connect with me</h2>
-                <hr>
-                <div class="panel-body">
-                    <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-                    <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-                    <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-                </div>
+            <div id="connect" class="col-md-4 sidebar">
+              <h2>Connect with me</h2>
+                    
+              <div class="social-links">
+                <a href="#" class="col-4"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+                <a href="#" class="col-4"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+                <a href="#" class="col-4"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+              </div>
             </div>
         </div>
     </div>
