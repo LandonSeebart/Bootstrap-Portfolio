@@ -117,25 +117,25 @@ body {
 
   /* portfolio page */
 
-  /* .projects {
+  .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  } */
+  }
   
-  /* .work {
+  .work {
     width: 274px;
     margin: 2px 0 25px;
     overflow: auto;
-  } */
+  }
   
-  /* .work img {
+  .work img {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
-  } */
+  } 
   
-  /* .work h3 {
+  .work h3 {
     position: relative;
     bottom: 85px;
     width: 100%;
@@ -147,7 +147,7 @@ body {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-  } */
+  }
   
   /* contact page */
   
